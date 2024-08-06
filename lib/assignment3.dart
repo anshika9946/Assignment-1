@@ -6,7 +6,7 @@ class Assignment3 extends StatefulWidget {
   const Assignment3({super.key});
 
   @override
-  _Assignment3State createState() => _Assignment3State();
+  State<Assignment3> createState() => _Assignment3State();
 }
 
 class _Assignment3State extends State<Assignment3> {
