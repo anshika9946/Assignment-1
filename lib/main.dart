@@ -33,57 +33,109 @@ class MainPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Flutter Assignments'),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            ElevatedButton(
-              onPressed: () {
+      body: Column(
+        children: [
+          Expanded(
+            child: InkWell(
+              onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => const Assignment1()),
                 );
               },
-              child: const Text('Assignment 1'),
+              child: Container(
+                color: Colors.lightBlue[100],
+                child: const Center(
+                  child: Text(
+                    'Assignment 1\nRow & Column with Bottom Navigation Bar, AppBar, and Drawer',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 18),
+                  ),
+                ),
+              ),
             ),
-            ElevatedButton(
-              onPressed: () {
+          ),
+          Expanded(
+            child: InkWell(
+              onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => const Assignment2()),
                 );
               },
-              child: const Text('Assignment 2'),
+              child: Container(
+                color: Colors.lightBlue[200],
+                child: const Center(
+                  child: Text(
+                    'Assignment 2\nSplash Screen and Login Page',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 18),
+                  ),
+                ),
+              ),
             ),
-            ElevatedButton(
-              onPressed: () {
+          ),
+          Expanded(
+            child: InkWell(
+              onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => const Assignment3()),
                 );
               },
-              child: const Text('Assignment 3'),
+              child: Container(
+                color: Colors.lightBlue[300],
+                child: const Center(
+                  child: Text(
+                    'Assignment 3\nListView and GridView',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 18),
+                  ),
+                ),
+              ),
             ),
-            ElevatedButton(
-              onPressed: () {
+          ),
+          Expanded(
+            child: InkWell(
+              onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => const Assignment4()),
                 );
               },
-              child: const Text('Assignment 4'),
+              child: Container(
+                color: Colors.lightBlue[400],
+                child: const Center(
+                  child: Text(
+                    'Assignment 4\nFlow of Registration',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 18),
+                  ),
+                ),
+              ),
             ),
-            ElevatedButton(
-              onPressed: () {
+          ),
+          Expanded(
+            child: InkWell(
+              onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => const Assignment5()),
                 );
               },
-              child: const Text('Assignment 5'),
+              child: Container(
+                color: Colors.lightBlue[500],
+                child: const Center(
+                  child: Text(
+                    'Assignment 5\nColor Change using SetState',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 18),
+                  ),
+                ),
+              ),
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
