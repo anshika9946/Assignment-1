@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class A1RowCol extends StatelessWidget {
-  const A1RowCol({super.key});
+class Assignment1 extends StatelessWidget {
+  const Assignment1({super.key});
 
   @override
   Widget build(BuildContext context) {
