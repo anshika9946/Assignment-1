@@ -9,7 +9,7 @@ class Assignment4 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Assignment 4'),
+        title: const Text('Flow of Registration'),
       ),
       body: const RegistrationScreen(),
     );
@@ -54,9 +54,6 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Registration'),
-      ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Form(

@@ -23,7 +23,7 @@ class _Assignment3State extends State<Assignment3> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ListView & GridView Assignment'),
+        title: const Text('ListView & GridView'),
       ),
       body: _selectedIndex == 0 ? buildListView() : buildGridView(),
       bottomNavigationBar: BottomNavigationBar(

@@ -16,7 +16,7 @@ class _Assignment5State extends State<Assignment5> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Assignment 5'),
+        title: const Text('Color Change with SetState'),
       ),
       body: Center(
         child: Column(
