@@ -1,3 +1,5 @@
+//Row & Column with Bottom Navigation Bar, AppBar, and Drawer
+
 import 'package:flutter/material.dart';
 
 class Assignment1 extends StatelessWidget {
