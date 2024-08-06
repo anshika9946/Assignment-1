@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'assignment1.dart';
 import 'assignment2.dart';
+import 'assignment3.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MainPage(),
+      home: const MainPage(),
     );
   }
 }
@@ -51,6 +52,15 @@ class MainPage extends StatelessWidget {
                 );
               },
               child: const Text('Assignment 2'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const Assignment3()),
+                );
+              },
+              child: const Text('Assignment 3'),
             ),
           ],
         ),
